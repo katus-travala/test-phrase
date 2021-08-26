@@ -10,6 +10,6 @@ phrase:
   pull:
     targets:
       - file: locales/<locale_name>/mp.json
-          params:
+        params:
           file_format: i18next
           tags: mp
