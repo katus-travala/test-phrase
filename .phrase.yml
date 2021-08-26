@@ -1,15 +1,15 @@
 phrase:
-        access_token: f3badb73ed71c1320089dc639e8af662b742f13d4d0b54298839cbcc71480953
-        project_id: e044c25e79d6720f8293ed12fb7d1141
-        push:
-        sources:
-        - file: locales/<locale_name>/mp.json
-    params:
-    file_format: i18next
-    tags: mp
-    pull:
-    targets:
-    - file: locales/<locale_name>/mp.json
+  access_token: f3badb73ed71c1320089dc639e8af662b742f13d4d0b54298839cbcc71480953
+  project_id: e044c25e79d6720f8293ed12fb7d1141
+  push:
+    sources:
+      - file: locales/<locale_name>/mp.json
         params:
-        file_format: i18next
-        tags: mp
+          file_format: i18next
+          tags: mp
+  pull:
+    targets:
+      - file: locales/<locale_name>/mp.json
+          params:
+          file_format: i18next
+          tags: mp
