@@ -6,5 +6,9 @@
   "love": "lovely",
   "alex": "mà a có account phrase rồi à.",
   "kem": "kem chanh",
+  "object": {
+    "title": "this is titile",
+    "description": "this is description"
+  },
   "chanh": "chanh kem"
 }
